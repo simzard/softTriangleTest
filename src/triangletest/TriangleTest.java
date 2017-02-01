@@ -70,6 +70,7 @@ public class TriangleTest {
                 input = scanner.nextDouble();
             } catch (InputMismatchException e) {
                 System.out.println("Not valid side - please try again...");
+                // skip the input
                 scanner.next();
                 continue;
             }
